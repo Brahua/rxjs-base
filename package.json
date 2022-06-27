@@ -1,0 +1,24 @@
+{
+  "name": "rxjs-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --port=8081",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.6.0",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

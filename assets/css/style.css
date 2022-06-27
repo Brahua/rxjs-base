@@ -1,0 +1,17 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title {
+    color: #DD1F85;
+    font-weight: 500;
+}
+
+.progress-bar-rxjs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 0%;
+    background-color: #DD1F85;
+}
